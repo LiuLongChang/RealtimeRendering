@@ -12,6 +12,8 @@
 		84D093461C133335000D8102 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D093441C133335000D8102 /* Main.storyboard */; };
 		84D093481C133335000D8102 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D093471C133335000D8102 /* Assets.xcassets */; };
 		84D0934B1C133335000D8102 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D093491C133335000D8102 /* LaunchScreen.storyboard */; };
+		84D093531C1333A9000D8102 /* RadiusImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D093521C1333A9000D8102 /* RadiusImageView.swift */; };
+		84D093551C133693000D8102 /* img.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84D093541C133693000D8102 /* img.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		84D093471C133335000D8102 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84D0934A1C133335000D8102 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84D0934C1C133335000D8102 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D093521C1333A9000D8102 /* RadiusImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadiusImageView.swift; sourceTree = "<group>"; };
+		84D093541C133693000D8102 /* img.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = img.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,8 +58,10 @@
 		84D0933F1C133335000D8102 /* RealtimeRendering */ = {
 			isa = PBXGroup;
 			children = (
+				84D093541C133693000D8102 /* img.jpg */,
 				84D093401C133335000D8102 /* AppDelegate.swift */,
 				84D093421C133335000D8102 /* ViewController.swift */,
+				84D093521C1333A9000D8102 /* RadiusImageView.swift */,
 				84D093441C133335000D8102 /* Main.storyboard */,
 				84D093471C133335000D8102 /* Assets.xcassets */,
 				84D093491C133335000D8102 /* LaunchScreen.storyboard */,
@@ -126,6 +132,7 @@
 				84D0934B1C133335000D8102 /* LaunchScreen.storyboard in Resources */,
 				84D093481C133335000D8102 /* Assets.xcassets in Resources */,
 				84D093461C133335000D8102 /* Main.storyboard in Resources */,
+				84D093551C133693000D8102 /* img.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D093531C1333A9000D8102 /* RadiusImageView.swift in Sources */,
 				84D093431C133335000D8102 /* ViewController.swift in Sources */,
 				84D093411C133335000D8102 /* AppDelegate.swift in Sources */,
 			);
